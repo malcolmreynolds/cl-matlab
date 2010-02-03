@@ -299,7 +299,7 @@
   "Get column dimension."
   (pa array-p))
 
-(defcfun ("mxSetN" set-col-dim) size-t
+(defcfun-mlab-vers ("mxSetN" set-col-dim) size-t
   "Set column dimension."
   (pa array-p))
 
@@ -307,7 +307,7 @@
   "Is array empty?"
   (pa array-p))
 
-(defcfun ("mxGetIr" get-ir) mw-index
+(defcfun-mlab-vers ("mxGetIr" get-ir) mw-index
   "Get row data pointer for sparse numeric array."
   (pa array-p))
 

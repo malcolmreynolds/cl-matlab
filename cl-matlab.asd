@@ -11,5 +11,5 @@
   :components ((:file "package")
                (:file "globals" :depends-on ("package"))
                (:file "macros" :depends-on ("package" "globals"))
-               (:file "matlab-bindings" :depends-on ("package" "macros" "global"))
+               (:file "matlab-bindings" :depends-on ("package" "macros" "globals"))
                ))
